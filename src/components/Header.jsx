@@ -127,13 +127,15 @@ const Header = () => {
             <button className="text-gray-300 hover:text-white font-medium transition-colors duration-300 text-sm">
               Login
             </button>
-            <motion.button 
-              className="btn-primary-slim"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              Start Free Trial
-            </motion.button>
+            <Link to="/start-trial">
+              <motion.button 
+                className="btn-primary-slim"
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+              >
+                Start Free Trial
+              </motion.button>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -193,9 +195,11 @@ const Header = () => {
                 <button className="block w-full text-left text-gray-300 hover:text-white transition-colors duration-300 text-sm">
                   Login
                 </button>
-                <button className="btn-primary-slim w-full">
-                  Start Free Trial
-                </button>
+                <Link to="/start-trial" onClick={() => setIsMobileMenuOpen(false)}>
+                  <button className="btn-primary-slim w-full">
+                    Start Free Trial
+                  </button>
+                </Link>
               </div>
             </div>
           </motion.div>

@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
@@ -94,13 +95,15 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
           >
-            <motion.button
-              className="btn-primary text-base px-8 py-4 w-full sm:w-auto shadow-2xl shadow-purple-500/25"
-              whileHover={{ scale: 1.05, boxShadow: "0 25px 50px -12px rgba(168, 85, 247, 0.4)" }}
-              whileTap={{ scale: 0.95 }}
-            >
-              Start Free Trial
-            </motion.button>
+            <Link to="/start-trial">
+              <motion.button
+                className="btn-primary text-base px-8 py-4 w-full sm:w-auto shadow-2xl shadow-purple-500/25"
+                whileHover={{ scale: 1.05, boxShadow: "0 25px 50px -12px rgba(168, 85, 247, 0.4)" }}
+                whileTap={{ scale: 0.95 }}
+              >
+                Start Free Trial
+              </motion.button>
+            </Link>
             <motion.button
               className="btn-secondary text-base px-8 py-4 w-full sm:w-auto"
               whileHover={{ scale: 1.05 }}
