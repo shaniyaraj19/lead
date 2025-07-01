@@ -222,7 +222,11 @@ const StartTrial = () => {
         </div>
 
         {/* Scroll Indicator */}
+<<<<<<< HEAD
         {/* <motion.div
+=======
+        <motion.div
+>>>>>>> f322ecebb87eacf228aacb507024d039fd9afc28
           className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
           animate={{ y: [0, 10, 0] }}
           transition={{ duration: 2, repeat: Infinity }}
@@ -230,7 +234,11 @@ const StartTrial = () => {
           <div className="w-6 h-10 border-2 border-slate-400 rounded-full flex justify-center">
             <div className="w-1 h-3 bg-slate-400 rounded-full mt-2"></div>
           </div>
+<<<<<<< HEAD
         </motion.div> */}
+=======
+        </motion.div>
+>>>>>>> f322ecebb87eacf228aacb507024d039fd9afc28
       </section>
 
       {/* Trial Benefits */}
@@ -529,7 +537,11 @@ const StartTrial = () => {
                 <div className="space-y-4">
                   {testimonials.map((testimonial, index) => (
                     <div key={index} className="border-l-2 border-purple-500 pl-4">
+<<<<<<< HEAD
                       <p className="text-slate-300 text-sm italic mb-2"></p>
+=======
+                      <p className="text-slate-300 text-sm italic mb-2">"{testimonial.quote}"</p>
+>>>>>>> f322ecebb87eacf228aacb507024d039fd9afc28
                       <div className="text-xs text-slate-400">
                         <span className="font-medium">{testimonial.author}</span>
                         <span className="mx-1">•</span>
