@@ -14,6 +14,7 @@ import Comparison from './pages/Comparison';
 import Contact from './pages/Contact';
 import Blog from './pages/Blog';
 import ScrollToTop from "./components/ScrollToTop";
+import StartTrial from './pages/StartTrial';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
           <Route path="/comparison" element={<Comparison />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/blog" element={<Blog />} />
+           <Route path="/start-trial" element={<StartTrial />} />
         </Routes>
         <Footer />
       </div>
