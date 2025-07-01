@@ -15,6 +15,7 @@ import Contact from './pages/Contact';
 import Blog from './pages/Blog';
 import StartTrial from './pages/StartTrial';
 import ScrollToTop from "./components/ScrollToTop";
+import Use from './pages/Use';
 
 
 function App() {
@@ -26,6 +27,8 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/features" element={<Features />} />
+          <Route path="/use" element={<Use />} />
+
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/comparison" element={<Comparison />} />
           <Route path="/contact" element={<Contact />} />

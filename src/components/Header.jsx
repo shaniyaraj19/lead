@@ -230,7 +230,9 @@ const Header = () => {
       name: 'Product',
       items: [
         { name: 'Features', href: '/features' },
-        { name: 'Use Cases', href: '#use-cases' },
+        { name: 'Use Cases', href: '/use' },
+        // { name: 'Use Cases', href: '/use' }
+
         { name: 'Integrations', href: '#integrations' }
       ]
     },
