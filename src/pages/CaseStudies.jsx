@@ -96,7 +96,7 @@ const CaseStudies = () => {
      {/* Hero Section */}
       <section className="bg-gradient-to-br from-gray-900 via-black  min-h-screen to-gray-800 py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
+          <h1 className="text-4xl md:text-5xl lg:text-8xl font-bold text-white leading-tight mb-6">
             Customer Success
             <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent"> Stories</span>
           </h1>

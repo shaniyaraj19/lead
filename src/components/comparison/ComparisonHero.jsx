@@ -194,7 +194,7 @@ const ComparisonHero = () => {
       <div className="container-custom relative z-10">
         <div className="text-center max-w-4xl mx-auto">
           <motion.h1
-            className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight"
+            className="text-3xl md:text-4xl lg:text-8xl font-bold text-white mb-6 leading-tight"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: 'easeOut' }}

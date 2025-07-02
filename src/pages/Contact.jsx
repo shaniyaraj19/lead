@@ -150,7 +150,7 @@ const Contact = () => {
         <div className="container-custom relative z-10">
           <div className="text-center max-w-4xl mx-auto">
             <motion.h1
-              className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight"
+              className="text-3xl md:text-4xl lg:text-8xl font-bold text-white mb-6 leading-tight"
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, ease: "easeOut" }}
@@ -183,7 +183,7 @@ const Contact = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-2xl md:text-3xl font-bold text-white mb-6">
+            <h2 className="text-2xl md:text-3xl  lg:text-8xl font-bold text-white mb-6">
               Multiple Ways to <span className="text-gradient">Reach Us</span>
             </h2>
             <p className="text-lg text-gray-300 max-w-2xl mx-auto">
