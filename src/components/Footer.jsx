@@ -7,15 +7,15 @@ const Footer = () => {
       links: [
         { name: 'Features', href: '/features' },
         { name: 'Pricing', href: '/pricing' },
-        { name: 'Integrations', href: '#integrations' },
-        { name: 'Use Cases', href: '#use-cases' }
+        { name: 'Integrations', href: '/integrations' },
+        { name: 'Use Cases', href: '/usecases' }
       ]
     },
     {
       title: 'Resources',
       links: [
         { name: 'Blog', href: '/blog' },
-        { name: 'Case Studies', href: '#case-studies' },
+        { name: 'Case Studies', href: '/casestudies' },
         { name: 'Help Center', href: '#help-center' },
         { name: 'API Docs', href: '#api-docs' }
       ]
