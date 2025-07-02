@@ -126,6 +126,7 @@ const CTA = () => {
                   Start Free Trial
                 </motion.button>
               </Link>
+              <Link to ="/book-demo">
               <motion.button
                 className="bg-transparent border-2 border-white text-white font-semibold py-3 px-6 rounded-lg hover:bg-white hover:text-purple-600 transition-all duration-300 transform hover:scale-105 text-base w-full sm:w-auto"
                 whileHover={{ scale: 1.05 }}
@@ -133,6 +134,7 @@ const CTA = () => {
               >
                 Book a Demo
               </motion.button>
+              </Link>
             </motion.div>
           </div>
         </motion.div>

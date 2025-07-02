@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-
+import { Link } from 'react-router-dom';
 const FeaturesHero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-24">
@@ -90,6 +90,7 @@ const FeaturesHero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
           >
+             <Link to="/start-trial">
             <motion.button
               className="btn-primary text-base px-8 py-4 w-full sm:w-auto shadow-2xl shadow-purple-500/25"
               whileHover={{ scale: 1.05, boxShadow: "0 25px 50px -12px rgba(168, 85, 247, 0.4)" }}
@@ -97,6 +98,8 @@ const FeaturesHero = () => {
             >
               Start Free Trial
             </motion.button>
+            </Link> 
+            <Link to ="/pricing">
             <motion.button
               className="btn-secondary text-base px-8 py-4 w-full sm:w-auto"
               whileHover={{ scale: 1.05 }}
@@ -104,20 +107,11 @@ const FeaturesHero = () => {
             >
               View Pricing
             </motion.button>
+             </Link >
           </motion.div>
+         
         </div>
       </div>
-
-      {/* Scroll Indicator */}
-      {/* <motion.div
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
-        animate={{ y: [0, 10, 0] }}
-        transition={{ duration: 2, repeat: Infinity }}
-      >
-        <div className="w-6 h-10 border-2 border-slate-400 rounded-full flex justify-center">
-          <div className="w-1 h-3 bg-slate-400 rounded-full mt-2"></div>
-        </div>
-      </motion.div> */}
     </section>
   );
 };

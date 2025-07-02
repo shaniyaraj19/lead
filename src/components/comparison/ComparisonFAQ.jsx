@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { GlowingCard } from '../ui/glowing-card';
+import {Link} from 'react-router-dom'
 import {
   Accordion,
   AccordionContent,
@@ -97,9 +98,10 @@ const ComparisonFAQ = () => {
               Ready to Make the Switch?
             </h3>
             <p className="text-slate-300 mb-6 max-w-2xl mx-auto">
-              Join thousands of sales teams who've already made the switch to LeadAccel. Start your free trial today and see the difference.
+              Join thousands of sales teams who have already made the switch to LeadAccel. Start your free trial today and see the difference.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+              <Link to ="/start-trail">
               <motion.button
                 className="btn-primary text-base px-6 py-3 w-full sm:w-auto"
                 whileHover={{ scale: 1.05 }}
@@ -107,6 +109,7 @@ const ComparisonFAQ = () => {
               >
                 Start Free Trial
               </motion.button>
+              </Link>
               <motion.button
                 className="btn-secondary text-base px-6 py-3 w-full sm:w-auto"
                 whileHover={{ scale: 1.05 }}

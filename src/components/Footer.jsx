@@ -23,7 +23,7 @@ const Footer = () => {
     {
       title: 'Company',
       links: [
-        { name: 'About Us', href: '#about us' },
+        { name: 'About Us', href: '/about' },
         { name: 'Contact Us', href: '/contact' },
         { name: 'Carrers', href: '#carrers' },
         { name: 'Patners', href: '#patners' },
@@ -32,10 +32,10 @@ const Footer = () => {
     {
       title: 'Legal',
       links: [
-        { name: 'Privacy Policy', href: '#privacy' },
-        { name: 'Terms of Service', href: '#terms' },
-        { name: 'Cookie Policy', href: '#cookies' },
-        { name: 'Security', href: '#security' }
+        { name: 'Privacy Policy', href: '/privacy' },
+        { name: 'Terms of Service', href: '/terms' },
+        { name: 'Cookie Policy', href: '/cookies' },
+        { name: 'Security', href: '/security' }
       ]
     }
   ];

@@ -15,8 +15,15 @@ import Contact from './pages/Contact';
 import Blog from './pages/Blog';
 import StartTrial from './pages/StartTrial';
 import ScrollToTop from "./components/ScrollToTop";
-import Use from './pages/Use';
-
+import CaseStudies from './pages/CaseStudies';
+import UseCasePage from './pages/UseCasePage';
+import About from './pages/About';
+import Privacy from './pages/privacy';
+import Terms from './pages/Terms';
+import Cookies from './pages/Cookies';
+import Security from './pages/Security';
+import BookDemo from './pages/BookDemo';
+import Login from './pages/Login';
 
 function App() {
   return (
@@ -27,13 +34,21 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/features" element={<Features />} />
-          <Route path="/use" element={<Use />} />
-
+          <Route path="/integrations" element={<Integrations />} />
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/comparison" element={<Comparison />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/blog" element={<Blog />} />
            <Route path="/start-trial" element={<StartTrial />} />
+           <Route path="/casestudies" element={<CaseStudies />} />
+           <Route path="/usecase" element={<UseCasePage />} />
+           <Route path="/about" element={<About />} />
+           <Route path="/privacy" element={<Privacy />} />
+           <Route path="/terms" element={<Terms />} />
+           <Route path="/cookies" element={<Cookies />} />
+           <Route path="/security" element={<Security />} />
+           <Route path="/book-demo" element={<BookDemo />} />
+           <Route path="/login" element={<Login />} />
         </Routes>
         <Footer />
       </div>

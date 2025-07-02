@@ -230,10 +230,10 @@ const Header = () => {
       name: 'Product',
       items: [
         { name: 'Features', href: '/features' },
-        { name: 'Use Cases', href: '/use' },
+        { name: 'Use Cases', href: '/usecase' },
         // { name: 'Use Cases', href: '/use' }
 
-        { name: 'Integrations', href: '#integrations' }
+        { name: 'Integrations', href: '/integrations' }
       ]
     },
     {
@@ -248,8 +248,8 @@ const Header = () => {
       name: 'Resources',
       items: [
         { name: 'Blog', href: '/blog' },
-        { name: 'Case Studies', href: '#case-studies' },
-        { name: 'Webinars', href: '#webinars' }
+        { name: 'Case Studies', href: '/casestudies' },
+        { name: 'Webinars', href: '/webinars' }
       ]
     },
     {
@@ -335,9 +335,11 @@ const Header = () => {
 
           {/* CTA Buttons */}
           <div className="hidden lg:flex items-center space-x-3">
+            <Link to ="/login">
             <button className="text-gray-300 hover:text-white font-medium transition-colors duration-300 text-sm">
               Login
             </button>
+            </Link>
             <Link to="/start-trial">
               <motion.button 
                 className="btn-primary-slim"
@@ -403,9 +405,11 @@ const Header = () => {
                 </div>
               ))}
               <div className="border-t border-gray-700 pt-4 px-4 space-y-2">
+                <Link to ="/login">
                 <button className="block w-full text-left text-gray-300 hover:text-white transition-colors duration-300 text-sm">
                   Login
                 </button>
+                </Link>
                 <Link to="/start-trial" onClick={() => setIsMobileMenuOpen(false)}>
                   <button className="btn-primary-slim w-full">
                     Start Free Trial

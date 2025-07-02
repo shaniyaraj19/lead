@@ -245,6 +245,7 @@ const Hero = () => {
                 Start Free Trial
               </motion.button>
             </Link>
+            <Link to ="/book-demo">
             <motion.button
               className="btn-secondary text-base px-8 py-4 w-full sm:w-auto"
               whileHover={{ scale: 1.05 }}
@@ -252,6 +253,7 @@ const Hero = () => {
             >
               Book a Demo
             </motion.button>
+            </Link>
           </motion.div>
 
           {/* Trust Indicators */}

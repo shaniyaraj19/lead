@@ -125,6 +125,7 @@
 // export default ComparisonHero;
 
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const ComparisonHero = () => {
   return (
@@ -220,6 +221,7 @@ const ComparisonHero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4, ease: 'easeOut' }}
           >
+            <Link to ="/start-trail">
             <motion.button
               className="btn-primary text-base px-8 py-4 w-full sm:w-auto shadow-2xl shadow-purple-500/25"
               whileHover={{ scale: 1.05, boxShadow: '0 25px 50px -12px rgba(168, 85, 247, 0.4)' }}
@@ -227,6 +229,8 @@ const ComparisonHero = () => {
             >
               Start Free Trial
             </motion.button>
+            </Link>
+            <Link to="/book-demo">
             <motion.button
               className="btn-secondary text-base px-8 py-4 w-full sm:w-auto"
               whileHover={{ scale: 1.05 }}
@@ -234,6 +238,7 @@ const ComparisonHero = () => {
             >
               Schedule Demo
             </motion.button>
+            </Link>
           </motion.div>
         </div>
       </div>
