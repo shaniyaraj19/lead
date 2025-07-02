@@ -18,7 +18,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import CaseStudies from './pages/CaseStudies';
 import UseCasePage from './pages/UseCasePage';
 import About from './pages/About';
-import Privacy from './pages/privacy';
+import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
 import Cookies from './pages/Cookies';
 import Security from './pages/Security';

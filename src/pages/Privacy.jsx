@@ -74,7 +74,7 @@ const Privacy = () => {
                   <li>Access the personal data we hold about you</li>
                   <li>Correct or update your information</li>
                   <li>Delete your account and associated data (subject to legal obligations)</li>
-                  <li>Opt out of marketing emails by clicking "Unsubscribe" in any email</li>
+                  <li>Opt out of marketing emails by clicking &quot;Unsubscribe&quot; in any email</li>
                 </ul>
                 <p className="text-gray-300">To exercise these rights, just email us at <a href="mailto:privacy@v-accel.ai" className="text-purple-400 underline">privacy@v-accel.ai</a>.</p>
               </div>
