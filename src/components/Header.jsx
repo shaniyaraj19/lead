@@ -255,7 +255,7 @@ const Header = () => {
     {
       name: 'Support',
       items: [
-        { name: 'Help Center', href: '#help-center' },
+        { name: 'Help Center', href: '/help-center' },
         { name: 'Contact Us', href: '/contact' },
         { name: 'Live Chat', href: '#chat' },
         { name: 'Documentation', href: '#docs' },

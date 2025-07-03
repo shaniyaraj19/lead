@@ -167,18 +167,8 @@ const StartTrial = () => {
         
         <div className="container-custom relative z-10">
           <div className="text-center max-w-4xl mx-auto">
-            <motion.div
-              className="inline-flex items-center bg-green-500/10 border border-green-500/20 rounded-full px-6 py-3 mb-6"
-              initial={{ opacity: 0, scale: 0.8 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.8, ease: "easeOut" }}
-            >
-              <Zap className="w-4 h-4 text-green-400 mr-2" />
-              <span className="text-green-400 font-medium">Start Your Free Trial Today</span>
-            </motion.div>
-
             <motion.h1
-              className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight"
+              className="text-3xl md:text-4xl lg:text-8xl font-bold text-white mb-6 leading-tight"
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, ease: "easeOut" }}
@@ -538,7 +528,7 @@ const StartTrial = () => {
       </section>
 
       {/* FAQ Section */}
-      <section className="section-padding">
+      {/* <section className="section-padding">
         <div className="container-custom">
           <motion.div
             className="text-center mb-12"
@@ -586,7 +576,7 @@ const StartTrial = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

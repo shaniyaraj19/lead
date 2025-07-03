@@ -25,6 +25,7 @@ import Security from './pages/Security';
 import BookDemo from './pages/BookDemo';
 import Login from './pages/Login';
 import Careers from './pages/Careers';
+import HelpCenter from './pages/HelpCenter';
 
 function App() {
   return (
@@ -51,6 +52,7 @@ function App() {
            <Route path="/book-demo" element={<BookDemo />} />
            <Route path="/login" element={<Login />} />
            <Route path="/careers" element={<Careers />} />
+           <Route path="/help-center" element={<HelpCenter />} />
         </Routes>
         <Footer />
       </div>
