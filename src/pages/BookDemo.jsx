@@ -1,5 +1,4 @@
 import { useState } from 'react';
-// import { GlowingCard } from './ui/glowing-card';
 import { GlowingCard } from '../components/ui/glowing-card';
 import {  
   ArrowRight, 
