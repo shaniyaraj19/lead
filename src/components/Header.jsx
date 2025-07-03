@@ -366,12 +366,19 @@ const Header = () => {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
+          // <motion.div
+          //   initial={{ opacity: 0, height: 0 }}
+          //   animate={{ opacity: 1, height: "auto" }}
+          //   exit={{ opacity: 0, height: 0 }}
+          //   className="bg-gray-900 rounded-lg mt-2 border border-gray-700"
+          // >
           <motion.div
-            initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: "auto" }}
-            exit={{ opacity: 0, height: 0 }}
-            className="lg:hidden bg-gray-900 rounded-lg mt-2 border border-gray-700"
-          >
+  initial={{ opacity: 0, height: 0 }}
+  animate={{ opacity: 1, height: "auto" }}
+  exit={{ opacity: 0, height: 0 }}
+  className="bg-gray-900 rounded-lg mt-2 border border-gray-700 max-h-[80vh] overflow-y-auto"
+>
+
             <div className="py-4 space-y-2">
               {navItems.map((item) => (
                 <div key={item.name}>

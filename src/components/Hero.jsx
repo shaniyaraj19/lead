@@ -188,11 +188,11 @@ const Hero = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 px-4 sm:px-6 lg:px-8 w-full max-w-7xl">
+      <div className="relative z-10 px-4 sm:px-6 lg:text-2xl w-full max-w-7xl">
         <div className="text-center max-w-5xl mx-auto">
           {/* Main Headline */}
           <motion.h1
-            className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight"
+            className="text-4xl md:text-6xl lg:text-8xl font-bold text-white mb-6 leading-tight"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: 'easeOut' }}
